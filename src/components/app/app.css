@@ -1,0 +1,26 @@
+#root{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.header, .footer{
+  flex-shrink: 0;
+  padding: 1rem;
+  font: 2rem 'Roboto Condensed', sans-serif;
+  text-align: center;
+}
+
+.footer{
+  margin: 1rem 1rem 0;
+  border-top: 1px solid #ccc;
+}
+
+.gallery{
+  flex: 1 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: flex-start;
+}

@@ -1,0 +1,12 @@
+.photo{
+    width: 229px;
+    height: 142px;
+    margin: 3rem 2rem 0;
+    background-color: #c4c4c4;
+    cursor: pointer;
+
+    @media (max-width: 500px) {
+        width: 280px;
+        height: 171px;
+    }
+}
